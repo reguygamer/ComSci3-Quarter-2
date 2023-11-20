@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Yes</title>
+  </head>
+  <body>
+    <video controls poster="posterpic1.jpg" width="480">
+      <!-- Video has controls, you can actually width and height this like an image-->
+      <source src="video1.mp4" type="video /ogg" />
+      <!--ogg is not supported anymore-->
+      <source src="video1.mp4" type="video/mp4" />
+      <!--If you are wondering why this is not working, dumbass its a preview not a real page-->
+      <!-- Another reason why video is not playing, its high qualitee-->
+      Your browser does not support the video element. Kindly update it to the
+      latest version.
+      <!-- This will show if browser does not support video-->
+    </video>
+    <figcaption>
+      This video has a sub-tag of controls with a poster on it
+    </figcaption>
+    <hr />
+    <p>You can add autoplay on the sub-tag</p>
+    <p>its (autoplay)</p>
+    <h6>Preload</h6>
+    <p>You can preload videos and audio while page is starting</p>
+    <p>preload="none" = no preload (default)</p>
+    <p>preload="auto" = automatically loads while a page loads</p>
+    <p>preload="metadata" = what is dis idk</p>
+    <hr />
+    <video
+      width="480"
+      poster="posterpic.png"
+      controls
+      muted
+      autoplay
+      muted
+      preload="auto"
+    >
+      <source
+        src="https://download.blender.org/peach/trailer/trailer_400p.ogg"
+        type="video/ogg"
+      />
+      <source
+        src="https://download.blender.org/peach/trailer/trailer_480.mov"
+        type="video/mov"
+      />
+      Your browser does not support dis video. Update it
+    </video>
+    <figcaption>This video has every tag you can posibbly think of</figcaption>
+    <hr>
+    
+  </body>
+</html>

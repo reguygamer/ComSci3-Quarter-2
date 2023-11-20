@@ -1,0 +1,30 @@
+header, footer{
+    background-color: #007196;
+    padding: 1em;
+    color: white;
+    text-align: center;
+}
+nav{
+    float: right;
+    width: 160px;
+    height: 134px;
+    padding: 1em;
+    border: solid;
+    border-color: #333;
+}
+nav ul{
+    list-style: none;
+    padding: 0px;
+}
+nav{
+    text-decoration: none;
+    padding-right: 10px;
+    color: #C5BD99;
+}
+article{
+    padding: 1em;
+}
+aside{
+    
+}
+
