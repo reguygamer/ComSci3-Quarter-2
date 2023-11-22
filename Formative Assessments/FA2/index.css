@@ -1,27 +1,26 @@
-body{
+body {
     font-family: sans-serif;
-    
-}
-a{
+  }
+  a {
     color: white;
-    background-color:rgb(38, 70, 83);
+    background-color: rgb(38, 70, 83);
     text-decoration: none;
-    width: 100px;
-    height: 100px;
-}
-a:visited{
+  }
+  a:visited {
     color: black;
     background-color: orange;
-}
-a div{
+  }
+  a div {
     color: black;
     margin-top: 20px;
     border: solid 1px;
     width: 100px;
     height: 125px;
-    display: block;
-}
-a:visited div{
-    background-color: rgb(38, 70, 83);
+    display: block; /* You probably forget this part lmao */
+    background-color: white; /* remember when transitioning was a thing */
+  }
+  a:visited div {
     color: yellow;
-}
+    background-color: rgb(38, 70, 83);
+    border: rgb(38, 70, 83) 1px;
+  }
