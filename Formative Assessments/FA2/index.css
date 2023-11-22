@@ -1,6 +1,27 @@
 body{
     font-family: sans-serif;
+    
 }
 a{
-    
+    color: white;
+    background-color:rgb(38, 70, 83);
+    text-decoration: none;
+    width: 100px;
+    height: 100px;
+}
+a:visited{
+    color: black;
+    background-color: orange;
+}
+a div{
+    color: black;
+    margin-top: 20px;
+    border: solid 1px;
+    width: 100px;
+    height: 125px;
+    display: block;
+}
+a:visited div{
+    background-color: rgb(38, 70, 83);
+    color: yellow;
 }
