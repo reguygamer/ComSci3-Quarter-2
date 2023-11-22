@@ -1,22 +1,6 @@
 body{
     font-family: sans-serif;
 }
- 
-a:link{
-    background-color: rgb(38, 70, 83);
-    color: white;
+a{
+    
 }
-a:visited{
-    background-color: orange;
-    color: black;
-}
-a div{
-    color: black;
-    border: solid 1px;
-    margin-top: 20px;
-    width: 100px;
-    height: 125px;
-}
-a:visited div{
-    background-color: rgb(38, 70, 83) !important;
-}empty-cells: ;
