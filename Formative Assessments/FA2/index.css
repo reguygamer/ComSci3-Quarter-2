@@ -1,53 +1,22 @@
-body{
+body {
   font-family: sans-serif;
 }
-a{
+a {
   color: white;
   background-color: rgb(38, 70, 83);
   text-decoration: none;
 }
-a:visited{
-  color: black;
-  background-color: orange;
-}
 div{
+  margin-top: 20px;
   color: black;
-    margin-top: 20px;
-    border: solid 1px;
-    width: 100px;
-    height: 125px;
-    display: block; 
-    background-color: white; 
+  border: solid 1px;
+  width: 100px;
+  height: 125px;
+  background-color: white;
+  display: block;
 }
-
-
-
-
-
-/* body {
-    font-family: sans-serif;
-  }
-  a {
-    color: white;
-    background-color: rgb(38, 70, 83);
-    text-decoration: none;
-  }
-  a:visited {
-    color: black;
-    background-color: orange;
-  }
-  a div {
-    color: black;
-    margin-top: 20px;
-    border: solid 1px;
-    width: 00px;
-    height: 125px;
-    display: block; 
-    background-color: white; 
-  a:visited div {
-    color: yellow;
-    background-color: rgb(38, 70, 83);
-    border: rgb(38, 70, 83) 1px;
-  }
-
-  */
+a:visited + div{
+  color: red;
+  background-color: green;
+  border-color: yellow;
+} 
