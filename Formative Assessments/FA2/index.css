@@ -1,22 +1,22 @@
 body {
   font-family: sans-serif;
 }
-a {
+body #link1:link {
   color: white;
-  background-color: rgb(38, 70, 83);
+  background-color: rgb(30, 70, 83);
   text-decoration: none;
 }
-div{
-  margin-top: 20px;
+body #link1:visited {
   color: black;
+  background-color: orange;
+}
+body div {
+  margin-top: 20px;
   border: solid 1px;
-  width: 100px;
+  width: 125px;
   height: 125px;
-  background-color: white;
   display: block;
 }
-a:visited + div{
-  color: red;
-  background-color: green;
-  border-color: yellow;
-} 
+  body #link1:visited + div{
+  color: green;
+}
