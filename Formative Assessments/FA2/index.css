@@ -2,7 +2,7 @@ body {
   font-family: sans-serif;
 }
 body #link1:link {
-  color: white;
+  color: rgb(104, 31, 31);
   background-color: rgb(30, 70, 83);
   text-decoration: none;
 }
