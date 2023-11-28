@@ -1,0 +1,39 @@
+body{
+    font-family: sans-serif;
+
+}
+.link1:link {
+  color: white;
+  background-color: rgb(30, 70, 83);
+  text-decoration: none;
+}
+.div1{
+    display: block;
+    color: black;
+    margin-top: 20px;
+    border: solid 1px;
+    width: 125px;
+    height: 100px;
+}
+.link1:visited{
+    background-color: orange;
+    color: black;
+}
+.link1:visited .div1{
+    color: gold;
+    background-color: rgb(30, 70, 83);
+}
+.link2:link{
+    margin-left: 5px;
+    color: white;
+    background-color: rgb(42, 157, 143);
+    text-decoration: none;
+}
+.div2{
+    margin-top: 20px;
+    display: block;
+    border: solid 1px;
+    color: black;
+    width: 125px;
+    height: 100px;
+}
