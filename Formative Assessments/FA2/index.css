@@ -37,7 +37,7 @@ a.link2:active {
   color: black;
   background-color: orange;
 }
-a.link2 div{
+a.link2 div {
   position: relative;
   top: 130px;
   right: 80px;
