@@ -1,21 +1,49 @@
-body{
-    font-family: sans-serif;
+body {
+  font-family: sans-serif;
+}
+a {
+  cursor: pointer;
+}
+a.link1 {
+  color: white;
+  background-color: darkblue;
+}
+a.link1:active {
+  background-color: orange;
+  color: white;
 }
 
-a:link{
-    text-decoration: none;
-    background-color: rgb(38, 70, 83);
-    color: white;
+div {
+  color: black;
+  border: 1px solid black;
+  width: 125px;
+  height: 100px;
+  margin-top: 20px;
+  display: block;
+}
+a.link1:active div {
+  color: gold;
+  background-color: darkblue;
+}
 
+a.link2 {
+  color: white;
+  background-color: lightgreen;
+  position: relative;
+  left: 80px;
+  bottom: 140px;
 }
-a:link div{
-    display: block;
-    border: 1px solid black;
-    color: black;
-    width: 100px;
-    height: 125px;
-    margin-top: 20px;
+a.link2:active {
+  color: black;
+  background-color: orange;
 }
-a:link :visited{
-    
+a.link2 div{
+  position: relative;
+  top: 130px;
+  right: 80px;
+}
+
+a.link2:active div {
+  border: 15px dotted green;
+  background-color: lightgreen;
 }
