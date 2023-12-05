@@ -1,7 +1,6 @@
-# Random quarter 2 bs
+# This is now in archive
 
-Yes its bs
-
+Git fucking broke for some reason dam
 Anyways here are metatags:
 
 > <meta charset="UTF-8" />
